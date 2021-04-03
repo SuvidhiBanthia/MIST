@@ -1,1 +1,1 @@
-# MIST
+# picoCTF2021

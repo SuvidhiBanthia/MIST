@@ -1,0 +1,87 @@
+Transformation
+> Open the text file
+> Convert the chinese unicode to ascii via hex to get the flag
+> Resources used:
+https://pages.ucsd.edu/~dkjordan/resources/unicodemaker.html
+https://www.rapidtables.com/convert/number/hex-to-ascii.html
+> FLAG: picoCTF{g00d_k1tty!_n1c3_k1tty!_9b3b7392}
+
+
+Crackme-py
+> Open the python script and decrypt [bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE0d_a3hgc3N"] using ROT-47 online decoder to get the flag
+> Resources used: 
+https://www.dcode.fr/rot-47-cipher
+FLAG: picoCTF{1|\/|_4_p34|\|ut_502b984b}
+
+
+Speeds and feeds
+> https://play.picoctf.org/events/34/challenges?category=3&page=1&search=speed
+>Run the command and get the gcode
+>nc mercury.picoctf.net 20301
+>Use the gcode to get the flag written in the 3D image 
+>Resources used: https://nraynaud.github.io/webgcode/
+
+
+Mod 26
+> Decrypt it using ROT-13 decoder to get the flag
+
+
+Wave a flag
+>  Connect to PICOCTF Webshell
+> Use command:
+wget https://mercury.picoctf.net/static/beec4f433e5ee5bfcd71bba8d5863faf/warm
+chmod +x warm
+--help.
+> FLAG: picoCTF{b1scu1ts_4nd_gr4vy_616f7182}
+
+
+Ancient History
+>  Open the given link- http://mercury.picoctf.net:47733/
+> Check browser history, You will see multiple new entries
+> Inspect the website and check the source code. 
+> Search ‘urlpath’ and take the last character to get the flag
+
+
+Magikarp Ground Mission
+> Use the SSH key to connect 
+> Use, ls, ls-a, cat to see and read the hidden files
+> First you will get the 1st part of the flag 
+> Check all directories, 
+	> Using cd .. you will enter parent directory 
+	> There you will find 3/3 Flag 
+	>Go further, to find 2/3  Flag 
+
+
+Tab, Tab, Attack
+> Unzip the file using ‘unzip’ command
+> Use, ls, ls-a, cat to see and read  hidden files 
+>  ‘cat’ the file  fang-of-haynekhtnamet to get the flag.
+
+
+Python Wrangling
+> Use the python script to decode a string, 
+> Pass it as an argument 
+> Use commands:
+python "ende.py" -d "flag.txt.en" to decode the flag
+> FLAG : picoCTF{4p0110_1n_7h3_h0us3_192ee2db}
+
+
+ Obedient Cat
+> Download and open the text file to get the flag directly
+
+
+Some Assembly Required 1
+> Inspect the website and check under WASM section to get the flag as the comment
+
+
+Nice netCat..
+> Convert the ascii values into their respective char values
+	
+
+Wireshark doo dooo do doo…
+> Use the following command:
+>Try strings 
+> ‘tcpflow -r filename.pcapng’
+> ‘cat’ all the files created
+> Read all the ascii files
+> Decrypt using ROT-13 to get the flag
